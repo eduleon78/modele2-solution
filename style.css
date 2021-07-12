@@ -80,3 +80,26 @@ h2 {
     margin-right: 10px;
     
 }
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .content {
+        width: 80%;
+      }
+  }
+  
+  
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content {
+      width: 80%;
+    }
+  }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .content {
+      width: 80%;
+    }
+    
+  }
